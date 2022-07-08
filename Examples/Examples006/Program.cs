@@ -4,7 +4,7 @@ int numberC = new Random().Next(1,1000);
 int numberD = new Random().Next(1,1000);
 int numberG = new Random().Next(1,1000);
 int numberE = new Random().Next(1,1000);
-Console.Write(numberA," ");
+Console.Write(numberA);
 Console.Write(numberB);
 Console.Write(numberC);
 Console.Write(numberD);
