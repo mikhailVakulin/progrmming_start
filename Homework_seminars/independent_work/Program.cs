@@ -24,7 +24,7 @@ void PrintArray(int[] massive)
 }
 
 //задаем размер массива
-int[] array = new int[15];
+int[] array = new int[10];
 //запускаем функции к нашему массиву
 FillArray(array);
 PrintArray(array);
@@ -40,6 +40,7 @@ int arithmetic_mean = sum / arraySize;
 Console.WriteLine();
 Console.Write("Среднее арифмитическое массива= ");
 Console.Write(arithmetic_mean);
+Console.WriteLine();
 
 
 
@@ -55,11 +56,14 @@ while (index < arraySize)
 {
     if (array[index] > array[imax]) imax = index;
     if (array[index] < array[imin]) imin = index;
+    index++;
 }
-index = 0;
+Console.WriteLine(imin);
+Console.WriteLine(imax);
+index = imin + 1;
 if (imax > imin)
 {
-    while (index>imin && index<imax)
+    while (index < imax)
     {
         sum = sum + array[index];
         index++;
@@ -68,8 +72,8 @@ if (imax > imin)
 
 else
 {
-    index=0;
-    while (index>imax && index<imin)
+    index = imax + 1;
+    while (index < imin)
     {
         sum = sum + array[index];
         index++;
@@ -78,3 +82,4 @@ else
 }
 Console.Write("Сумма элементов= ");
 Console.Write(sum);
+//Всё работает, ура!!!
