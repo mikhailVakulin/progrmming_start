@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\bin\Debug\net6.0\seminar_2.exe
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\bin\Debug\net6.0\seminar_2.deps.json
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\bin\Debug\net6.0\seminar_2.runtimeconfig.json
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\bin\Debug\net6.0\seminar_2.dll
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\bin\Debug\net6.0\seminar_2.pdb
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\seminar_2.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\seminar_2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\seminar_2.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\seminar_2.AssemblyInfo.cs
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\seminar_2.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\seminar_2.dll
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\refint\seminar_2.dll
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\seminar_2.pdb
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\seminar_2.genruntimeconfig.cache
+C:\Users\User\Desktop\c#\progrmming_start\C#\seminar_2\obj\Debug\net6.0\ref\seminar_2.dll
