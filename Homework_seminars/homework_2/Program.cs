@@ -1,13 +1,13 @@
 ﻿//Задача 10: Напишите программу, которая принимает на вход трёхзначное число и на выходе показывает вторую цифру этого числа.
 
 Console.Write("Введите трехзначное число: ");
-int newcount = Convert.ToInt32(Console.ReadLine());
+int newCount = Convert.ToInt32(Console.ReadLine());
 
-if (newcount < 1000 && newcount > 99)
+if (newCount < 1000 && newCount > 99)
 {
-    newcount /= 10;
-    newcount %= 10;
-    Console.WriteLine($"Вторая цифра числа = {newcount}");
+    newCount /= 10;
+    newCount %= 10;
+    Console.WriteLine($"Вторая цифра числа = {newCount}");
 
 }
 else
