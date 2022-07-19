@@ -14,7 +14,6 @@ int count = Int32.Parse(Console.ReadLine());
 if (count / 10000 == count % 10)
 {
     if (count / 1000 % 10 == count % 100 / 10) Console.WriteLine("count =  палиндром");
-    ;
 }
 else
 {
@@ -46,8 +45,6 @@ int X2 = Int32.Parse(Console.ReadLine());
 Console.Write("ввлите координаты точки Y2: ");
 int Y2 = Int32.Parse(Console.ReadLine());
 
-
-
 Console.Write("ввлите координаты точки Z2: ");
 int Z2 = Int32.Parse(Console.ReadLine());
 
@@ -63,4 +60,5 @@ Console.WriteLine(Math.Round(distanceBetweenPoint, 2));
 // 5 -> 1, 8, 27, 64, 125
 Console.Write("введите число: ");
 int number = Int32.Parse(Console.ReadLine());
-for (int i = 1; i < number; i++) Console.Write($"{Math.Pow(i,3)} ");
+for (int i = 1; i < number; i++) Console.Write($"{Math.Pow(i, 3)} ");
+
