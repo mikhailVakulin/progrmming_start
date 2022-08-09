@@ -7,8 +7,4 @@ build_property.InvariantGlobalization =
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = seminar_3
-<<<<<<< HEAD
 build_property.ProjectDir = c:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_3\
-=======
-build_property.ProjectDir = c:\Users\User\Desktop\c#\progrmming_start\C#\seminar_3\
->>>>>>> e2523a1f713d9367ed8c9c05247228f3d1b3653a
