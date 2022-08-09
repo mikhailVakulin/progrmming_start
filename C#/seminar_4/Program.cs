@@ -50,28 +50,69 @@
 // // [1,0,1,1,0,1,0,0]
 
 
-void FillArray(int[] collection)
+int[] createNewArray(int arraySize)
 {
-    int lenght = collection.Length;
-    int index = 0;
-    while (index < lenght)
+    int[] array = new int[arraySize];
+    for (int i = 0; i < array.Length; i++)
     {
-        collection[index] = new Random().Next(0, 2);
-        index++;
+        array[i] = new Random().Next(2);
+    }
+    return array;
+}
+int[] array = createNewArray(8);
+
+
+void PrintArray(int[] array)
+{ 
+    for (int i = 0; i < array.Length; i++)
+    {
+        Console.Write($"  {array[i]}");
     }
 }
-
-void PrintArray(int[] collection)
-{
-    int lenght = collection.Length;
-    int index = 0;
-    while (index < lenght)
-    {
-        Console.Write(collection[index] + " ");
-        index++;
-    }
-}
-int[] array = new int[8];
-
-FillArray(array);
+createNewArray(8);
 PrintArray(array);
+// void FillArray(int[] collection)
+// {
+//     int lenght = collection.Length;
+//     int index = 0;
+//     while (index < lenght)
+//     {
+//         collection[index] = new Random().Next(0, 2);
+//         index++;
+//     }
+// }
+
+// void PrintArray(int[] collection)
+// {
+//     int lenght = collection.Length;
+//     int index = 0;
+//     while (index < lenght)
+//     {
+//         Console.Write(collection[index] + " ");
+//         index++;
+//     }
+// }
+// int[] array = new int[8];
+
+// FillArray(array);
+// PrintArray(array);
+
+
+// 30
+// Двоичные числа: 1 и 0
+
+int[] array = GetBinaryArray(8);
+Console.Write($"[{String.Join(",", array)}]");
+int[] GetBinaryArray(int size)
+{
+int[] result = new int[size];
+// new int[size] - массив размером size элементов
+// заполнен массив "0"
+// result.Length = size
+for (int i = 0; i < result.Length; i++)
+{
+result[i] = new Random().Next(2);// [0;2)
+// (2) - считаем, что числа от 0 до 1 (2 не включается)
+}
+return result; // int [] result
+}
