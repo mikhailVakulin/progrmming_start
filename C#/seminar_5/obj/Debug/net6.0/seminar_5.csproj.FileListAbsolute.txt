@@ -1,0 +1,15 @@
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\seminar_5.csproj.AssemblyReference.cache
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\seminar_5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\seminar_5.AssemblyInfoInputs.cache
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\seminar_5.AssemblyInfo.cs
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\seminar_5.csproj.CoreCompileInputs.cache
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\bin\Debug\net6.0\seminar_5.exe
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\bin\Debug\net6.0\seminar_5.deps.json
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\bin\Debug\net6.0\seminar_5.runtimeconfig.json
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\bin\Debug\net6.0\seminar_5.dll
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\bin\Debug\net6.0\seminar_5.pdb
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\seminar_5.dll
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\refint\seminar_5.dll
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\seminar_5.pdb
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\seminar_5.genruntimeconfig.cache
+C:\Users\Пользователь\Desktop\git_worktable\progrmming_start\C#\seminar_5\obj\Debug\net6.0\ref\seminar_5.dll
