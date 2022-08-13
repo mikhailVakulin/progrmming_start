@@ -127,7 +127,7 @@ if (result == false) Console.WriteLine("Такого числа нет");
 Console.WriteLine();
 Console.WriteLine("Задача 52");
 Console.WriteLine();
-int sum = 0;
+double sum = 0;
 for (int i = 0; i < array1.GetLength(1); i++)
 {
     sum = 0;
