@@ -34,10 +34,7 @@ double[,] array = new double[rows, columns];
 
 for (int i = 0; i < array.GetLength(0); i++)
 {
-    for (int j = 0; j < array.GetLength(1); j++)
-    {
-        array[i, j] = new Random().NextDouble() * 10;
-    }
+    for (int j = 0; j < array.GetLength(1); j++) array[i, j] = new Random().NextDouble() * 10;
 }
 
 printArrayDouble(array);
@@ -107,7 +104,6 @@ for (int i = 0; i < array1.GetLength(0); i++)
             Console.WriteLine($"Индекс позиции искомого числа = [{i} , {j}]");
             result = true;
         }
-
     }
 }
 if (result == false) Console.WriteLine("Такого числа нет");
@@ -131,10 +127,7 @@ double sum = 0;
 for (int i = 0; i < array1.GetLength(1); i++)
 {
     sum = 0;
-    for (int j = 0; j < array1.GetLength(0); j++)
-    {
-        sum += array1[j, i];
-    }
-    sum = sum / rows;
+    for (int j = 0; j < array1.GetLength(0); j++) sum += array1[j, i];
+    sum = sum / array1.GetLength(0);
     Console.WriteLine($"Среднее аифмитическое {i + 1} столбца = {sum}");
 }
