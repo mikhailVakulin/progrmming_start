@@ -52,7 +52,7 @@ void printArrayInt(int[,] matrix)
     }
 }
 
-/// Сортировка двумерного массива по срокам от большего к меньшему
+/// Сортировка двумерного массива по строкам от большего к меньшему
 void sortArrayInt(int[,] matrix)
 {
     for (int k = 0; k < matrix.GetLength(0); k++)
@@ -117,7 +117,7 @@ System.Console.WriteLine();
 printArrayInt(array56);
 Console.WriteLine();
 
-/// поиск строки с минимальной сммой элементов
+/// поиск строки с минимальной суммой элементов
 void SearchMinValueRows(int[,] matrix)
 {
     int minValueRows = int.MaxValue;
@@ -249,7 +249,7 @@ int[,,] create3DArray(int rows, int columns, int deep)
     return array;
 }
 
-/// построчная печать двумерного массива
+/// построчная печать трёхмерного массива
 void print3DArrayInt(int[,,] matrix)
 {
     for (int i = 0; i < matrix.GetLength(0); i++)
